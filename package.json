@@ -2,8 +2,8 @@
   "name": "pipe-gantt",
   "version": "0.6.1",
   "description": "A simple, modern, interactive gantt library for the web",
-  "main": "src/index",
-  "types": "src/index",
+  "main": "dist/frappe-gantt.min",
+  "types": "dist/frappe-gantt.min",
   "scripts": {
     "start": "yarn run dev",
     "build": "rollup -c",
