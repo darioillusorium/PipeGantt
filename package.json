@@ -2,7 +2,8 @@
   "name": "pipe-gantt",
   "version": "0.6.1",
   "description": "A simple, modern, interactive gantt library for the web",
-  "main": "src/index.js",
+  "main": "src/index",
+  "types": "src/index",
   "scripts": {
     "start": "yarn run dev",
     "build": "rollup -c",
@@ -29,7 +30,7 @@
     "interactive gantt",
     "project management"
   ],
-  "author": "Faris Ansari",
+  "author": "Faris Ansari and Dario RH",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/frappe/gantt/issues"
