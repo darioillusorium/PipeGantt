@@ -77,7 +77,7 @@ export default class Gantt {
     } else {
       throw new TypeError(
         "Frappé Gantt only supports usage of a string CSS selector," +
-        " HTML DOM element or SVG DOM element for the 'element' parameter. Current type: " + typeof element,
+        " HTML DOM element or SVG DOM element for the 'element' parameter",
       );
     }
 
