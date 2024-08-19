@@ -2062,7 +2062,7 @@ var Gantt = (function () {
         }
 
         bar_wrapper.classList.add("active");
-        this.popup.parent.classList.add('hidden');
+        this.popup?.parent.classList.add('hidden');
 
         x_on_start = e.offsetX;
         y_on_start = e.offsetY;
@@ -2297,7 +2297,7 @@ var Gantt = (function () {
       [...this.$svg.querySelectorAll(".bar-wrapper")].forEach((el) => {
         el.classList.remove("active");
       });
-      this.popup.parent.classList.remove('hidden');
+      this.popup?.parent.classList.remove('hidden');
     }
 
     view_is(modes) {
