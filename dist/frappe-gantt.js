@@ -2062,7 +2062,7 @@ var Gantt = (function () {
         }
 
         bar_wrapper.classList.add("active");
-        this.popup?.parent.classList.add('hidden');
+        // this.popup?.parent.classList.add('hidden') // Now we want to display always popup is mouse us hover
 
         x_on_start = e.offsetX;
         y_on_start = e.offsetY;
